@@ -18,6 +18,14 @@ header {
   max-width: 1160px;
   margin: 0 auto;
 }
+/* header style end */
+
+/* body style start */
+body {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+/* body style end */
 
 nav {
   display: flex;
@@ -87,6 +95,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 0 60px 0;
   gap: 52px;
 }
 
@@ -128,3 +137,101 @@ nav {
   transition: all 0.5s;
 }
 /* header style end */
+
+/* curriculum section style start */
+.curriculum {
+  background-image: url("../assets/bg.png");
+  padding: 150px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.curriculum h2 {
+  color: black;
+  font-size: 2.875rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.curriculum_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 29px;
+  padding-bottom: 40px;
+}
+
+.curriculum_cards {
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  padding: 50px 40px;
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+  text-align: center;
+}
+
+.school_cards {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18.86px;
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
+.middlem_cards {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
+.curriculum_card h3 {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 33px;
+}
+
+.curriculum_card p {
+  color: #808080;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 38px;
+}
+
+.read_more {
+  color: #64c8ff;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+}
+
+.read_more2 {
+  color: #f0aa00;
+}
+
+.read_more3 {
+  color: #8700ff;
+}
+
+.arrow{
+  text-align: center;
+}
+
+
+/* curriculum section style end */

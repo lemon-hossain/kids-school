@@ -10,11 +10,11 @@
     display: none;
   }
 
-  .nav-bar {
+  .nav_bar {
     display: none;
   }
 
-  .contact-button {
+  .contact_button {
     display: none;
   }
 
@@ -45,4 +45,24 @@
     width: 100%;
   }
   /* hero section responsive end */
+
+  /* curriculum section responsive start */
+  .curriculum {
+    padding: 0 0 30px 0;
+  }
+
+  .curriculum h2 {
+    font-size: 1.8rem;
+  }
+
+  .curriculum_card {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+    margin-top: -50px;
+  }
+
+  .arrow {
+    display: none;
+  }
+  /* curriculum section responsive end */
 }
