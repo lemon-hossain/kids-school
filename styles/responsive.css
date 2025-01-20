@@ -1,0 +1,48 @@
+@media screen and (max-width: 576px) {
+  /* navbar start */
+  nav {
+    gap: 80%;
+    padding: 20px;
+    border-bottom: 0.5px solid rgb(254, 163, 1);
+  }
+
+  .logo h1 {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .contact-button {
+    display: none;
+  }
+
+  .bars {
+    width: 300%;
+    display: block;
+  }
+  /* navbar end */
+
+  /* hero section responsive start */
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero_content h1 {
+    font-size: 2rem;
+    margin-top: -30px;
+  }
+
+  .enroll_now {
+    font-size: 1.5rem;
+    padding: 12px 24px;
+  }
+
+  .hero_image img {
+    width: 100%;
+  }
+  /* hero section responsive end */
+}
